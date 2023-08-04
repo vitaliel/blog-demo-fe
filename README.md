@@ -1,5 +1,13 @@
 # BlogDemoFe
 
+## Docker image usage
+```shell
+docker build -t vitaliel/blog-demo-fe:1.0.1 .
+docker push vitaliel/blog-demo-fe:1.0.1
+
+docker run -p 8080:80 -it --rm vitaliel/blog-demo-fe:1.0.1
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
 
 ## Development server
